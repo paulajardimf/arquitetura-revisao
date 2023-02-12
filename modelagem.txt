@@ -1,0 +1,26 @@
+=============================
+// Negócio
+=============================
+
+PRODUCTS
+  id string
+  name string
+  price number
+
+    SUPPLIERS
+      id string
+      name string (unique)
+
+==============================
+// Banco de dados
+==============================
+
+PRODUCTS
+  id string
+  name string
+  price number
+
+BRANDS
+  id string
+  name string (unique)
+
